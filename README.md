@@ -3,7 +3,7 @@
 [![NPM Version][npm-version-image]][npm-url]
 [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 
-![Test](https://github.com/yukiakai212/vanipath/actions/workflows/build.yml/badge.svg)
+![Build Status][github-build-url]
 
 > Get `__filename` and `__dirname` in both ESM and CJS using pure JavaScript – no native modules, no bundler hacks.
 
@@ -68,4 +68,4 @@ MIT License © 2025 [yukiakai](https://github.com/yukiakai212)
 [npm-downloads-url]: https://www.npmjs.com/package/vanipath
 [npm-url]: https://www.npmjs.com/package/vanipath
 [npm-version-image]: https://badgen.net/npm/v/vanipath
-
+[github-build-url]: https://github.com/yukiakai212/vanipath/actions/workflows/build.yml/badge.svg

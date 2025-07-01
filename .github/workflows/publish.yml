@@ -32,7 +32,8 @@ jobs:
         id: tag
       - name: Authenticate with NPM TOKEN
         run: npm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
-
+      - name: Build package
+        run: npm run test
       - name: Publish to npm with provenance
         run: npm publish --provenance --access public --tag ${{ steps.tag.outputs.tag }}
         env:
