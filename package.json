@@ -1,0 +1,53 @@
+{
+  "name": "vanipath",
+  "version": "1.0.0",
+  "description": "Get __dirname and __filename in ESM & CJS using pure JavaScript",
+  "type": "module",
+  "main": "./dist/index.js",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "test": "npm run build && npx vitest run --reporter verbose",
+    "format": "prettier --write **/*.js",
+    "format:check": "prettier --check **/*.js",
+    "lint": "eslint src/**/*.js",
+    "build": "npx tsup"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "keywords": [
+    "dirname",
+    "filename",
+    "path",
+    "cross"
+  ],
+  "author": "Yuki_akai",
+  "homepage": "https://github.com/yukiakai212/vanipath",
+  "engines": {
+    "node": ">= 16"
+  },
+  "maintainers": [
+    {
+      "name": "Yuki_akai",
+      "homepage": "https://github.com/yukiakai212"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukiakai212/vanipath.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yukiakai212/vanipath/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.30.0",
+    "prettier": "^3.6.2",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
