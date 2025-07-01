@@ -9,6 +9,7 @@
 
 **`vanipath`** provides functions that act as direct replacements for Node.js's `__filename` and `__dirname`, working seamlessly in **both ESM and CJS** environments. It's designed for who want compatibility across environments.
 No native modules, and no build steps required. Just import and use like the originals.
+
 ---
 
 ## 🚀 Installation
