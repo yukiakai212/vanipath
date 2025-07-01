@@ -5,7 +5,7 @@
 
 ![Test](https://github.com/yukiakai212/vanipath/actions/workflows/build.yml/badge.svg)
 
-> 🪶 Get `__filename` and `__dirname` in both ESM and CJS using pure JavaScript – no native modules, no bundler hacks.
+> Get `__filename` and `__dirname` in both ESM and CJS using pure JavaScript – no native modules, no bundler hacks.
 
 `vanipath` provides utilities to retrieve the equivalent of `__filename` and `__dirname` in both CommonJS and ESM contexts. It's designed for library authors who want compatibility across environments without native bindings or compiler tricks.
 
