@@ -5,10 +5,10 @@
 
 ![Build Status][github-build-url]
 
-> Get `__filename` and `__dirname` in both ESM and CJS using pure JavaScript – no native modules, no bundler hacks.
+> Drop-in replacement for `__filename` and `__dirname` in both ESM and CommonJS – pure JavaScript, no native bindings.
 
-`vanipath` provides utilities to retrieve the equivalent of `__filename` and `__dirname` in both CommonJS and ESM contexts. It's designed for library authors who want compatibility across environments without native bindings or compiler tricks.
-
+**`vanipath`** provides functions that act as direct replacements for Node.js's `__filename` and `__dirname`, working seamlessly in **both ESM and CJS** environments. It's designed for who want compatibility across environments.
+No native modules, and no build steps required. Just import and use like the originals.
 ---
 
 ## 🚀 Installation
@@ -22,11 +22,13 @@ npm install vanipath
 
 ## 🛠 Usage
 
+In ESM:
+
 ```js
 import { filename, dirname } from 'vanipath';
 
-console.log(filename()); // /absolute/path/to/current-file.js
-console.log(dirname());  // /absolute/path/to
+console.log(filename()); // equivalent to __filename
+console.log(dirname());  // equivalent to __dirname
 ```
 
 In CommonJS:
@@ -34,17 +36,14 @@ In CommonJS:
 ```js
 const { filename, dirname } = require('vanipath');
 
-console.log(filename());
-console.log(dirname());
+console.log(filename()); // equivalent to __filename
+console.log(dirname());  // equivalent to __dirname
 ```
 
----
-
-## ⚠️ Warning
-
-Do not use relative traversal tricks like `path.join(dirname(), '../..')` — these may break in bundled environments, like when using `tsup`, `webpack`, or `Vercel`. Always resolve paths based on project root or absolute references.
+Works exactly like native `__filename` and `__dirname`, even in environments where they’re not available (like ESM modules).
 
 ---
+
 
 ## 🧪 Test
 
