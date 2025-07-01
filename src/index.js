@@ -8,7 +8,6 @@ const filename = (depth = 2) => {
   const regex = /(file:\/\/\/?.*?):\d+:\d+/;
   const regex2 = /at (.*?):\d+:\d+/;
   const file = stack.match(regex)?.[2] || stack.match(regex2)?.[1];
-  console.log(file, stack);
   return file ? (file.startsWith('file') ? fileURLToPath(file) : file) : null;
 };
 const dirname = () => {
