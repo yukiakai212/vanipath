@@ -13,6 +13,7 @@ export default defineConfig({
   treeshake: false,
   minify: true,
   target: 'es2022',
+  drop: 'console',
   define: {},
   external: [],
 });

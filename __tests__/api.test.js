@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi, beforeEach, test } from 'vitest';
 import module from 'node:module';
 import path from 'node:path';
 
@@ -18,4 +18,8 @@ describe.each([
   it('should return this folder path', () => {
     expect(vanipath.dirname()).toBe(import.meta.dirname);
   });
+});
+test('Module should work, not throw Eror', async () => {
+  await import('../index.js');
+  expect(true).toBe(true);
 });
