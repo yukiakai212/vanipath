@@ -5,5 +5,8 @@ export default defineConfig({
   test: {
     environment: 'node',
     include: ['__tests__/*.test.js'],
+    coverage: {
+      provider: 'v8',
+    },
   },
 });
