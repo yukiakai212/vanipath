@@ -13,10 +13,25 @@ No native modules, and no build steps required. Just import and use like the ori
 
 ---
 
+## 🌐 Compatibility
+
+| Runtime   | Support  | Notes                                   |
+|-----------|--------- |-----------------------------------------|
+| Node.js   | ✅       | Full support (ESM & CJS)                |
+| Deno      | ✅       | Full support (ESM & CJS)                |
+| Bun       | ✅       | Full support (ESM & CJS)                |
+
+---
+
 ## 🚀 Installation
 
 ```bash
+#nodejs
 npm install vanipath
+#bun
+bun add vanipath
+#deno
+deno add npm:vanipath
 ```
 
 ---
