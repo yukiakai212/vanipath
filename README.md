@@ -28,6 +28,7 @@ No native modules, and no build steps required. Just import and use like the ori
 ```bash
 #nodejs
 npm install vanipath
+pnpm add discord.js
 #bun
 bun add vanipath
 #deno
