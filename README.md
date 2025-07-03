@@ -3,7 +3,7 @@
 [![NPM Version][npm-version-image]][npm-url]
 [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 
-![Build Status][github-build-url]
+[![Build Status][github-build-url]][github-url]
 [![codecov][codecov-image]][codecov-url]
 
 > Drop-in replacement for `__filename` and `__dirname` in both ESM and CommonJS – pure JavaScript, no native bindings.
@@ -70,5 +70,6 @@ MIT License © 2025 [yukiakai](https://github.com/yukiakai212)
 [npm-url]: https://www.npmjs.com/package/vanipath
 [npm-version-image]: https://badgen.net/npm/v/vanipath
 [github-build-url]: https://github.com/yukiakai212/vanipath/actions/workflows/build.yml/badge.svg
+[github-url]: https://github.com/yukiakai212/vanipath/
 [codecov-image]: https://codecov.io/gh/yukiakai212/vanipath/branch/main/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/yukiakai212/vanipath
