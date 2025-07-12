@@ -8,8 +8,15 @@
 
 > Drop-in replacement for `__filename` and `__dirname` in both ESM and CommonJS – pure JavaScript, no native bindings.
 
-**`vanipath`** provides functions that act as direct replacements for Node.js's `__filename` and `__dirname`, working seamlessly in **both ESM and CJS** environments. It's designed for who want compatibility across environments.
+**`vanipath`** provides functions that act as direct replacements for Node.js's `__filename` and `__dirname`, working seamlessly in **both ESM and CJS** environments. It's designed for developers who need compatibility across different module systems.
 No native modules, and no build steps required. Just import and use like the originals.
+
+---
+## Features
+
+- ✅ **Zero dependencies** — no bloat, no surprises  
+- ✅ No native modules, and no build steps required  
+- ✅ Especially useful in projects using cross-environment build tools like **tsup**, **vite**, or **esbuild**, where `__dirname` and `__filename` might not behave consistently or may require workarounds
 
 ---
 
