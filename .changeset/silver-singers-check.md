@@ -1,5 +1,0 @@
----
-'vanipath': patch
----
-
-TS support
