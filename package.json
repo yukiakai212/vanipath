@@ -19,7 +19,8 @@
     "build": "npx tsup"
   },
   "files": [
-    "dist/*"
+    "dist/*",
+	"CHANGELOG.md"
   ],
   "keywords": [
     "dirname",

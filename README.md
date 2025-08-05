@@ -82,11 +82,18 @@ npx vitest run
 
 ---
 
+## 📦 Changelog
+
+See full release notes in [CHANGELOG.md][changelog-url]
+
+---
+
 ## 📄 License
 
 MIT License © 2025 [yukiakai](https://github.com/yukiakai212)
 
 
+---
 
 [npm-downloads-image]: https://badgen.net/npm/dm/vanipath
 [npm-downloads-url]: https://www.npmjs.com/package/vanipath
@@ -96,3 +103,4 @@ MIT License © 2025 [yukiakai](https://github.com/yukiakai212)
 [github-url]: https://github.com/yukiakai212/vanipath/
 [codecov-image]: https://codecov.io/gh/yukiakai212/vanipath/branch/main/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/yukiakai212/vanipath
+[changelog-url]: https://github.com/yukiakai212/vanipath/blob/main/CHANGELOG.md
