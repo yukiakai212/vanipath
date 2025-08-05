@@ -1,16 +1,4 @@
-import { defineConfig } from 'eslint/config';
-export default defineConfig([
-  {
-    files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
-    rules: {
-      'prefer-const': 'warn',
-      'no-constant-binary-expression': 'error',
-      'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
-    },
-    ignores: ['dist/**', 'node_modules/**'],
-    languageOptions: {
-      ecmaVersion: 'latest',
-      sourceType: 'module',
-    },
-  },
-]);
+import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint';
+
+export default tseslint.config(eslint.configs.recommended, tseslint.configs.recommended);
