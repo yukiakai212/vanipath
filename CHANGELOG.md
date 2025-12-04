@@ -1,5 +1,11 @@
 # vanipath
 
+## 1.0.8
+
+### Patch Changes
+
+- efd9e89: chore: fix security vulnerabilities
+
 ## 1.0.7
 
 ### Patch Changes

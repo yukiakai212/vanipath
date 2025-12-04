@@ -1,6 +1,6 @@
 {
   "name": "vanipath",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Get __dirname and __filename in ESM & CJS using pure JavaScript",
   "type": "module",
   "main": "./dist/index.js",
