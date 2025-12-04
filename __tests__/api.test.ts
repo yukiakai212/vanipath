@@ -13,10 +13,10 @@ describe.each([
   ['CJS', vanipathCJS],
 ])('vanipath with (%s)', (name, vanipath) => {
   it('should return this file path', () => {
-    expect(vanipath.filename()).toBe(import.meta.filename);
+    expect(vanipath.filename()).toBe(vanipath.normalizePath(import.meta.filename));
   });
   it('should return this folder path', () => {
-    expect(vanipath.dirname()).toBe(import.meta.dirname);
+    expect(vanipath.dirname()).toBe(vanipath.normalizePath(import.meta.dirname));
   });
 });
 test('Module should work, not throw Eror', async () => {

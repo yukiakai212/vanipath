@@ -14,7 +14,7 @@ let dataESM = [...dataMap];
 for (let i = 0; i < dataMap.length; i++) {
   if (dataMap[i].trim().startsWith('import')) {
     dataESM[i] = dataMap[i].replace('./src/index.js', './dist/index.js');
-    dataCJS[i] = 'const {dirname} = require("./dist/index.cjs");';
+    dataCJS[i] = dataMap[i].split('#')[1];
   }
 }
 fs.writeFileSync(fileCJS, dataCJS.join('\n').replaceAll('import.meta.dirname', '__dirname'));
