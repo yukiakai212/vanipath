@@ -1,5 +1,0 @@
----
-'vanipath': patch
----
-
-Update devDependencies
