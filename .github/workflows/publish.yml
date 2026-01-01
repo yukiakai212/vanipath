@@ -39,5 +39,3 @@ jobs:
         run: npm run test
       - name: Publish to npm with provenance
         run: npm publish --provenance --access public --tag ${{ steps.tag.outputs.tag }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
