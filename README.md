@@ -20,7 +20,7 @@ No native modules, and no build steps required. Just import and use like the ori
 
 ---
 
-## 🌐 Compatibility
+## Compatibility
 
 | Runtime   | Support  | Notes                                   |
 |-----------|--------- |-----------------------------------------|
@@ -30,7 +30,7 @@ No native modules, and no build steps required. Just import and use like the ori
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ```bash
 #nodejs
@@ -45,7 +45,7 @@ deno add npm:vanipath
 ---
 
 
-## 🛠 Usage
+## Usage
 
 In ESM:
 
@@ -70,7 +70,7 @@ Works exactly like native `__filename` and `__dirname`, even in environments whe
 ---
 
 
-## 🧪 Test
+## Test
 
 This project uses [Vitest](https://vitest.dev/):
 
@@ -82,13 +82,13 @@ npx vitest run
 
 ---
 
-## 📦 Changelog
+## Changelog
 
 See full release notes in [CHANGELOG.md][changelog-url]
 
 ---
 
-## 📄 License
+## License
 
 MIT License © 2025 [yukiakai](https://github.com/yukiakai212)
 
