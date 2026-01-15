@@ -1,5 +1,11 @@
 # vanipath
 
+## 1.0.10
+
+### Patch Changes
+
+- b4e61a0: Using Trusted Publisher
+
 ## 1.0.9
 
 ### Patch Changes
